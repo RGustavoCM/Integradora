@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Asesorías Académicas</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--navbar-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<nav class="navbar navbar-expand-md navbar-dark">
+
+		<!-- Brand/logo -->
+		<a class="navbar-brand" href="InicioProv.html">
+			<img src="Images/utng_logo.png" alt="logo" style="width:200px;">
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<!-- Navbar links -->
+	  		<ul class="navbar-nav">
+	  			<li class="nav-item">
+			      <a class="nav-link" href="DireccionInicio.html">Inicio</a>
+			    </li>
+			   	<li class="nav-item">
+			      <a class="nav-link" href="DireccionRegistroHorario.html">Registro Horarios</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="DireccionReportes.html">Reportes</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="DireccionPerfil.html">Perfil</a>
+			    </li>
+	  		</ul>
+       </div>
+   </nav>
+   <br>
+	<br>
+	<div class="container">
+		<h2>Reporte de Asesorías</h2>
+		<br>
+		<p>Profesor:</p>
+			​<form action="">
+		    	<select name="Profesor" class="custom-select mb-3">
+			      <option selected>Seleccione un Profesor</option>
+			      <option value="Formación Sociocultural III">Parra Rodriguez Gerardo</option>
+			      <option value="Sistemas Operativos">Barron Rogriguez Gabriel</option>
+			      <option value="Aplicaciones Web">Hernández Ojeda Guillermo</option>
+			      <option value="Bases de Datos para Aplicaciones">Rubio Hernández J.Refugio</option>
+			      <option value="Integradora I">García Peralta Gerson Gaston</option>
+			      <option value="Calculo Diferencial">Rodriguez Garccía Anastació</option>
+			      <option value="Probabilidad y Estadistica">Martinez Mejía Elsa Verónica</option>
+			      <option value="Ingles III">García Valencia Victor Noel</option>
+				  <option value="Ingles III">Diaz Robledo Maeria Teresa</option>
+				  <option value="Ingles III">Muro Gomez Ricardo</option>
+				  <option value="Ingles III">Mendez Mendoza Maricela</option>
+		    	</select>
+		  	</form>
+		<br>
+		<p>Materia:</p>
+			​<form action="">
+		    	<select name="Materia" class="custom-select mb-3">
+			      <option selected>Seleccionar Materia</option>
+			      <option value="Sistemas Operativos">Sistemas Operativos</option>
+			      <option value="Aplicaciones Web">Aplicaciones Web</option>
+			      <option value="Bases de Datos para Aplicaciones">Bases de Datos para Aplicaciones</option>
+			      <option value="Integradora I">Integradora I</option> 
+		    	</select>
+		  	</form>
+	<br>
+	
+		<center right><form name="formulario" method="post" action="http://pagina.com/send.php">
+			Fecha Inicial:
+				<input type="date" name="fecha" min="2019-03-25" max="2019-05-25" step="2">
+		Fecha Final:<input type="date" name="fecha" min="2019-03-25"
+						max="2019-05-25" step="2">
+		</form></center>
+		<br>
+		<br>
+		<center><button type="submit" class="btn btn-success">Mostrar</button></center>
+		<br>
+	<h2>Horarios</h2>        
+	  <table class="table table-responsive table-striped">
+	    <thead>
+	      <tr>
+	        <th>Materia</th>
+	        <th>Dia</th>
+	        <th>Horario</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>Aplicaciones web</td>
+	        <td>Martes</td>
+	        <td>16:00 - 17:00</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+		<center><button type="button" class="btn btn-success" onclick="location.href='direccion.html'">Regresar</button>
+			</div></center>
+	
+	<br>
+	<footer>
+		<div class="container-fluid">
+			<h3>Asesorías Académicas UTNG</h3>
+		</div>
+	</footer>
+
+</body>
+</html>

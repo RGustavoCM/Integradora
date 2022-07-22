@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Asesorías Académicas</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--navbar-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<nav class="navbar navbar-expand-md navbar-dark">
+
+		<!-- Brand/logo -->
+		<a class="navbar-brand" href="InicioProv.html">
+			<img src="Images/utng_logo.png" alt="logo" style="width:200px;">
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<!-- Navbar links -->
+	  		<ul class="navbar-nav">
+	  			<li class="nav-item">
+			      <a class="nav-link" href="DireccionInicio.html">Inicio</a>
+			    </li>
+			   	<li class="nav-item">
+			      <a class="nav-link" href="DireccionRegistroHorario.html">Registro Horarios</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="DireccionReportes.html">Reportes</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="DireccionPerfil.html">Perfil</a>
+			    </li>
+	  		</ul>
+       </div>
+   </nav>
+   <br>
+	
+	<section>
+	<div class="container">
+		<h2>Registro de Horarios</h2>
+		<p>Profesores:</p>
+			​<form action="">
+				<select name="Profesores" class="custom-select mb-3">
+					<option selected="">Seleccionar profesor</option>
+					<option value="Susana Karina>Susana Karina</option>
+					<option value="Victor">Victor</option>
+					<option value="Erika">Erika</option>
+					<option value="Sustaita">Sustaita</option>
+					<option value="Rubio">Rubio</option>
+				</select>
+			</form>
+		<p>Dia:</p>
+			<form action="">
+				<select name="Dia" class="custom-select mb-3">
+					<option selected="">Seleccionar Dia</option>
+					<option value="Lunes">Lunes</option>
+					<option value="Martes">Martes</option>
+					<option value="Miercoles">Miercoles</option>
+					<option value="Jueves">Jueves</option>
+					<option value="Viernes">Viernes</option>
+				</select>
+			</form>
+		<p>Horario:</p>
+		<form action="">
+			<select name="Horario" class="custom-select mb-3-3">
+				<option selected="">Seleccionar Horario</option>
+				<option value="16:00 - 17:00">16:00 - 17:00</option>
+				<option value="17:00 - 18:00">17:00 - 18:00</option>
+				<option value="18:00 - 19:00">18:00 - 19:00</option>
+				<option value="19:00 - 20:00">19:00 - 20:00</option>
+			</select>
+		</form>
+		<br>
+		<button type="submit" class="btn btn-success">Guardar</button>
+	
+	<br><br><br>
+
+	<h2>Horarios</h2>        
+	  <table class="table table-responsive table-striped">
+	    <thead>
+	      <tr>
+	        <th>Materia</th>
+	        <th>Dia</th>
+	        <th>Horario</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>Aplicaciones web</td>
+	        <td>Martes</td>
+	        <td>16:00 - 17:00</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</div>
+	</section>
+
+	<footer>
+		<div class="container-fluid">
+			<h3>Asesorías Académicas UTNG</h3>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+nav{
+	background: #214880;
+	color: #fff;
+	position: absolute;
+}
+
+a{
+	background: #214880;
+	color: #fff;
+}
+
+footer{
+	background: #214880;
+	color: #fff;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+
+button {
+	background: #00CA1B;
+	color: #fff;
+}
+

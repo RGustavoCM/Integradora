@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Asesorías Académicas</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<nav class="navbar navbar-expand-md navbar-dark">
+
+		<!-- Brand/logo -->
+		<a class="navbar-brand" href="InicioProv.html">
+			<img src="Images/utng_logo.png" alt="logo" style="width:200px;">
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<!-- Navbar links -->
+	  		<ul class="navbar-nav">
+	  			<li class="nav-item">
+			      <a class="nav-link" href="AlumnoInicio.html">Inicio</a>
+			    </li>
+			   	<li class="nav-item">
+			      <a class="nav-link" href="AlumnoHorarios.html">Horarios</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="AlumnoSolicitarAsesoria.html">Solicitar Asesoria</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="AlumnoNotificaciones.html">Notificaciones</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="AlumnoPerfil.html">Perfil</a>
+			    </li>
+	  		</ul>
+       </div>
+   </nav>
+   <br>
+	<div class="container">
+		<h2>Agendar Asesoria</h2>
+		<p>Materia:
+			​<form action="">
+		    	<select name="Materia" class="custom-select mb-3">
+			      <option selected>Seleccionar Materia</option>
+			      <option value="Formación Sociocultural III">Formación Sociocultural III</option>
+			      <option value="Sistemas Operativos">Sistemas Operativos</option>
+			      <option value="Aplicaciones Web">Aplicaciones Web</option>
+			      <option value="Bases de Datos para Aplicaciones">Bases de Datos para Aplicaciones</option>
+			      <option value="Integradora I">Integradora I</option>
+			      <option value="Calculo Diferencial">Calculo Diferencial</option>
+			      <option value="Probabilidad y Estadistica">Probabilidad y Estadistica</option>
+			      <option value="Ingles III">Ingles III</option>
+		    	</select>
+		  	</form>
+</p>
+		<p>Profesores:</p>
+			<form action="">
+				<select name="Profesores" class="custom-select mb-3">
+					<option selected="">Seleccionar profesor</option>
+					<option value="Susana Karina>Susana Karina</option>
+					<option value="Victor">Victor</option>
+					<option value="Erika">Erika</option>
+					<option value=""></option>
+					<option value=""></option>
+				</select>
+			</form>
+<p>Dia:</p>
+			<form action="">
+				<select name="Dia" class="custom-select mb-3">
+			      <option selected>Seleccionar Dia</option>
+			      <option value="lunes">Lunes</option>
+			      <option value="Martes">Martes</option>
+			      <option value="Miercoles">Miercoles</option>
+			      <option value="Jueves">Jueves</option>
+			      <option value="Viernes">viernes</option>
+			  
+		    	</select>
+			</form>
+ 
+		<p>Horario:</p>
+		<form action="">
+			<select name="Horario" class="custom-select mb-3-3">
+				<option selected="">Seleccionar Horario</option>
+                                
+				
+                                <option value=""16:00 - 17:00">16:00 a 17:00</option>
+				<option value="17:00 - 18:00">17:00 a 18:00</option>
+				<option value="18:00 - 19:00">18:00 a 19:00</option>
+				<option value="19:00 - 20:00">19:00 a 20:00</option>
+			</select>
+		</form>
+<br>
+<br>
+
+	<form>
+			<div class="input-group mb-3">
+		    	<div class="input-group-prepend">
+		      		<span class="input-group-text">Tema a Tratar </span>
+		    	</div>
+		    	<input type="text" class="form-control">
+			</div>
+		</form>
+		<br>
+		<button type="submit" class="btn btn-success">guardar</button>
+                <button type="submit" class="btn btn-success">enviar</button>
+
+                    
+	<br><br><br>
+
+	<h2>Estatus Asesorias</h2>        
+	  <table class="table table-responsive table-striped">
+	    <thead>
+	      <tr>
+	        <th>Materia</th>
+                <th>Profesor</th>
+	        <th>Dia</th>
+	        <th>Horario</th>
+                 <th>estatus</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>ingles lll</td>
+                 <td>Susana Karina</td>
+	        <td>Martes</td>
+	        <td>16:00 - 17:00</td>
+                 <td>Aceptada</td>
+	      </tr>
+               <tr>
+	        <td>sistemas</td>
+                 <td>victor</td>
+	        <td>miercoles</td>
+	        <td>16:00 - 17:00</td>
+                 <td>Rechazada</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</div>
+	<br>
+
+	<footer>
+		<div class="container-fluid">
+			<h3>Asesorías Académicas UTNG</h3>
+		</div>
+	</footer>
+
+
+</body>
+</html>
